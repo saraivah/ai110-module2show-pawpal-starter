@@ -121,4 +121,38 @@ Describe your app in numbered steps so a reader can follow along without watchin
 ==================================================
 
 📊 Summary: 10 total tasks | 0 complete | 10 pending
+
+
 ```
+
+## Testing PawPal+
+
+To run the tests, use the following command in your terminal:
+
+```bash
+python -m pytest
+```
+
+### What the tests cover
+
+**Task Completion** (`test_task_completion`)
+Verifies that a task starts as incomplete and that calling `mark_complete()`
+correctly changes its status to completed.
+
+**Task Addition** (`test_task_addition`)
+Verifies that adding tasks to a `Pet` correctly increases the pet's task count,
+starting from zero and incrementing with each task added.
+
+### Sample test output
+
+```
+ Running PawPal+ Tests...
+
+✅ test_task_completion passed!
+✅ test_task_addition passed!
+
+All tests passed
+```
+
+### Test file
+All tests are located in `tests/test_pawpal.py`.
