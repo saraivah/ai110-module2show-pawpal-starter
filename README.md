@@ -92,3 +92,33 @@ Describe your app in numbered steps so a reader can follow along without watchin
 5. <!-- Add more steps as needed -->
 
 **Screenshot or video** *(optional)*: <!-- Insert a screenshot or link to a demo video here -->
+
+## Sample Output
+
+```
+==================================================
+   🐾 PAWPAL+ — TODAY'S SCHEDULE
+   📅 Tuesday, July 08 2026
+==================================================
+
+👤 Owner: Sarah
+  🐶 Buddy
+      ⬜  7:00 AM      Morning walk              [Daily]
+      ⬜  7:30 AM      Feed breakfast            [Daily]
+      ⬜  9:00 AM      Give medication           [Weekly]
+      ⬜  6:00 PM      Evening walk              [Daily]
+  🐶 Whiskers
+      ⬜  8:00 AM      Feed breakfast            [Daily]
+      ⬜  10:00 AM     Clean litter box          [Daily]
+      ⬜  3:00 PM      Grooming                  [Weekly]
+
+👤 Owner: James
+  🐶 Mango
+      ⬜  8:30 AM      Feed seeds                [Daily]
+      ⬜  11:00 AM     Clean cage                [Weekly]
+      ⬜  4:00 PM      Playtime                  [Daily]
+
+==================================================
+
+📊 Summary: 10 total tasks | 0 complete | 10 pending
+```
