@@ -4,8 +4,12 @@
 
 **a. Initial design**
 
-- Briefly describe your initial UML design.
-- What classes did you include, and what responsibilities did you assign to each?
+ **Add a pet** users can add a pet and edit the pets name, breed, and color and also adds it's owner. This is handled by the Pet class, which stores pet details and links each pet to its owner.
+ **Drop off and pick up a pet** — A user can schedule a drop off and pick up for their pet by selecting a drop off time, a pick up time, and a location. This is handled by the Appointment class, which stores the drop off and pick up details and links them to the pet and its owner.
+ **See today's tasks** — A user can view all walks and tasks scheduled for the current day. The Scheduler class is responsible for filtering and displaying only the relevant appointments for today.
+
+
+
 
 **b. Design changes**
 
